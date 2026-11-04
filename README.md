@@ -1,60 +1,73 @@
-# Computer Networks Laboratory
+# CN Laboratory — Experiment Repository
 
-A structured collection of **Computer Networks (CN) laboratory experiments** covering network configuration, connectivity testing, packet inspection, DNS, TCP/UDP socket programming, ARP/RARP, and routing simulations using **NS-2**.
+This repository contains the **Computer Networks Laboratory** programs and simulations for B.Tech. CSE (AI & Data Science) at **Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya (SCSVMV University)**.
 
-## Experiment index
+The experiments cover network commands, packet analysis, Python networking, socket-based applications, address resolution protocols, and routing simulations.
 
-| No. | Experiment | File |
-|---:|---|---|
-| 01 | Network commands and packet analysis | [Experiment 01](<Experiment 01 - Network Commands and Packet Analysis.txt>) |
-| 02 | Machine hostname and IP address using Python | [Experiment 02](<Experiment 02 - Machine Hostname and IP Address.py>) |
-| 03 | HTTP client/server using TCP sockets | [Experiment 03](<Experiment 03 - HTTP Web Client and Server using TCP Sockets.py>) |
-| 04 | TCP echo client and server | [Experiment 04](<Experiment 04 - TCP Echo Client and Server.py>) |
-| 05 | TCP multi-client chat application | [Experiment 05](<Experiment 05 - TCP Multi-Client Chat Application.py>) |
-| 06 | TCP file transfer | [Experiment 06](<Experiment 06 - TCP File Transfer.py>) |
-| 07 | ARP and RARP protocol simulation | [Experiment 07](<Experiment 07 - ARP and RARP Protocol.py>) |
-| 08 | TCP and UDP simulation using NS-2 | [Experiment 08](<Experiment 08 - TCP and UDP Simulation using NS2.tcl>) |
-| 09 | Distance Vector routing using NS-2 | [Experiment 09](<Experiment 09 - Distance Vector Routing using NS2.tcl>) |
-| 10 | Link State routing using NS-2 | [Experiment 10](<Experiment 10 - Link State Routing using NS2.tcl>) |
-| 11 | Local DNS and IP address using Python | [Experiment 11](<Experiment 11 - Local DNS and IP Address.py>) |
+## Lab Experiments
 
-## Requirements
+| Experiment | Description | Source file |
+|---|---|---|
+| 01 | Network commands and packet analysis | [Open file](<Experiment 01 - Network Commands and Packet Analysis.txt>) |
+| 02 | Find machine hostname and IP address with Python | [Open file](<Experiment 02 - Machine Hostname and IP Address.py>) |
+| 03 | HTTP web client and server using TCP sockets | [Open file](<Experiment 03 - HTTP Web Client and Server using TCP Sockets.py>) |
+| 04 | TCP echo client-server program | [Open file](<Experiment 04 - TCP Echo Client and Server.py>) |
+| 05 | TCP multi-client chat application | [Open file](<Experiment 05 - TCP Multi-Client Chat Application.py>) |
+| 06 | File transfer over TCP | [Open file](<Experiment 06 - TCP File Transfer.py>) |
+| 07 | ARP and RARP protocol implementation/simulation | [Open file](<Experiment 07 - ARP and RARP Protocol.py>) |
+| 08 | TCP and UDP network simulation with NS-2 | [Open file](<Experiment 08 - TCP and UDP Simulation using NS2.tcl>) |
+| 09 | Distance Vector routing simulation with NS-2 | [Open file](<Experiment 09 - Distance Vector Routing using NS2.tcl>) |
+| 10 | Link State routing simulation with NS-2 | [Open file](<Experiment 10 - Link State Routing using NS2.tcl>) |
+| 11 | Local DNS lookup and IP address using Python | [Open file](<Experiment 11 - Local DNS and IP Address.py>) |
 
-- Python 3 for Python experiments.
-- NS-2 and NAM for simulation experiments.
-- Wireshark / Pktmon for packet capture and inspection.
-- Windows Command Prompt / PowerShell or a Linux terminal for network commands.
+## Software and Tools
 
-## Running experiments
+Install or make available the following, depending on the experiment you want to run:
 
-Clone this repository:
+- **Python 3** — Python-based networking programs.
+- **NS-2 and NAM** — network simulation programs.
+- **Wireshark / Pktmon** — packet capture and inspection.
+- **Windows Command Prompt / PowerShell or Linux terminal** — network command exercises.
+
+## Getting Started
+
+Download the repository and enter its directory:
 
 ```bash
 git clone https://github.com/hari-scsvmv/Computer-Network-Lab.git
 cd Computer-Network-Lab
 ```
 
-Run a Python experiment:
+### Execute a Python program
+
+For example:
 
 ```bash
 python "Experiment 02 - Machine Hostname and IP Address.py"
 ```
 
-Run an NS-2 experiment:
+### Execute an NS-2 simulation
+
+For example:
 
 ```bash
 ns "Experiment 08 - TCP and UDP Simulation using NS2.tcl"
 ```
 
-For client-server experiments, start the server first and then run the client. Review each file and use only systems and networks you are authorized to test.
+For client-server programs, launch the server before starting the client. Check each experiment's source before execution, and perform network tests only on systems and networks you are authorized to use.
 
-## Topics covered
+## Concepts Practised
 
-- Network configuration, connectivity, DNS, route tracing, and packet analysis.
-- Python socket programming, HTTP requests, TCP echo, chat, and file transfer.
-- ARP/RARP address resolution.
-- TCP/UDP traffic and Distance Vector / Link State routing simulations.
+- Network configuration and connectivity testing.
+- DNS, route tracing, and packet inspection.
+- Python socket programming and HTTP communication.
+- TCP echo services, multi-client chat, and file transfer.
+- ARP and RARP address resolution.
+- TCP/UDP traffic simulation.
+- Distance Vector and Link State routing algorithms.
 
-## Academic context
+---
 
-Computer Networks Laboratory coursework — Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya (SCSVMV University), B.Tech. CSE (AI & Data Science).
+**Course:** Computer Networks Laboratory  
+**Programme:** B.Tech. — CSE (AI & Data Science)  
+**Institution:** Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya (SCSVMV University)
