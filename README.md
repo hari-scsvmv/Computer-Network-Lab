@@ -19,6 +19,14 @@ The experiments cover network commands, packet analysis, Python networking, sock
 | 09 | Distance Vector routing simulation with NS-2 | [Open file](<Experiment 09 - Distance Vector Routing using NS2.tcl>) |
 | 10 | Link State routing simulation with NS-2 | [Open file](<Experiment 10 - Link State Routing using NS2.tcl>) |
 | 11 | Local DNS lookup and IP address using Python | [Open file](<Experiment 11 - Local DNS and IP Address.py>) |
+| 12 | Link State routing simulation using NS-2 (12-node topology) | [Open file](<Experiment 12 - Link State Routing using NS2.tcl>) |
+| 13 | Local DNS server hostname and IP address using Python | [Open file](<Experiment 13 - Local DNS Server Hostname and IP Address.py>) |
+| 14 | Cyclic Redundancy Check (CRC) error detection | [Open file](<Experiment 14 - Cyclic Redundancy Check CRC.py>) |
+| 15 | Wireshark capture and display filter expressions | [Open file](<Experiment 15 - Wireshark Filter Expressions.txt>) |
+| 16 | RTP packet delay, jitter, and loss analysis using Wireshark | [Open file](<Experiment 16 - RTP Packet Delay and Loss Analysis using Wireshark.txt>) |
+| 17 | Inspect network packets using Wireshark | [Open file](<Experiment 17 - Inspect Network Packets using Wireshark.txt>) |
+| 18 | Build a simple LAN using Cisco Packet Tracer | [Open file](<Experiment 18 - Simple LAN using Cisco Packet Tracer.txt>) |
+| 19 | Network topologies using Benchmark LAN Trainer Kit | [Open file](<Experiment 19 - Network Topologies using Benchmark LAN Trainer Kit.txt>) |
 
 ## Software and Tools
 
